@@ -175,7 +175,22 @@ placement/
 
 ## Screenshots
 
-[Place your screenshots here with descriptions]
+### Frontend Interface
+![Frontend UI Main](./screenshots/frontend_ui.jpg)
+*Main interface of the URL shortener application showing the URL input form*
+
+![Frontend UI Analytics](./screenshots/frontend_ui_2.jpg)
+*Analytics dashboard showing URL statistics and click data*
+
+![Frontend UI Dark Theme](./screenshots/frontend_ui_3.jpg)
+*Dark theme implementation with minimal, aesthetic design*
+
+### API Testing
+![Create URL API](./screenshots/create_api.jpg)
+*API endpoint testing for URL creation showing successful response*
+
+![Get Statistics API](./screenshots/getstatics_api.jpg)
+*API endpoint testing for retrieving URL statistics and analytics data*
 
 ## Error Handling
 
@@ -240,11 +255,3 @@ placement/
 6. Cache implementation
 7. Batch URL processing
 8. API documentation (Swagger)
-
-## Contributing
-
-[Add contribution guidelines if applicable]
-
-## License
-
-[Add license information if applicable]
