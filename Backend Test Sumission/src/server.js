@@ -3,6 +3,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import routes from "./routes/index.js";
+dotenv.config();
+
 const PORT = process.env.PORT || 5000;
 
 dotenv.config();
