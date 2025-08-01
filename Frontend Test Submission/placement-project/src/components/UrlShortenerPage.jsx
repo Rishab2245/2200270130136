@@ -23,7 +23,7 @@ const UrlShortenerPage = () => {
     try {
       const validUrls = urls.filter(url => url.url.trim() !== '');
       const promises = validUrls.map(({ url, validity, shortcode }) =>
-        axios.post('http://localhost:5000/shorturls', {
+        axios.post('https://two200270130136.onrender.com/shorturls', {
           url,
           validity: validity || 30,
           shortcode: shortcode || undefined

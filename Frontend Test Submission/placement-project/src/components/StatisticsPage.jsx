@@ -71,7 +71,7 @@ const StatisticsPage = () => {
       try {
         const shortCodes = JSON.parse(localStorage.getItem('shortCodes') || '[]');
         const promises = shortCodes.map(code =>
-          axios.get(`http://localhost:5000/shorturls/${code}`)
+          axios.get(`https://two200270130136.onrender.com/shorturls/${code}`)
         );
         const responses = await Promise.all(promises);
         setUrls(responses.map(res => res.data));
