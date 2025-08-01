@@ -34,7 +34,7 @@ export const createShortUrl = async (req, res) => {
         }
 
         res.status(201).json({
-            shortLink: `http://localhost:5000/${finalShortcode}`,
+            shortLink: `https://two200270130136.onrender.com/${finalShortcode}`,
             expiry: expiryDate.toISOString()
         });
     } catch (error) {
